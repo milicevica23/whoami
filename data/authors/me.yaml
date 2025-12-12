@@ -2,13 +2,11 @@ schema: hugoblox/author/v1
 slug: me
 is_owner: true
 name:
-  display: 吳健雄
-  given: Shiung Wu
-  family: Chien
-  pronunciation: Chien Shiung Wu
-  pronouns: she/her
+  display: Aleksandar Milicevic 
+  given: Aleksandar Milicevic 
+  family: Milicevic
 status:
-  icon: "☕️"
+  icon: 
 role: Professor of Artificial Intelligence
 bio: My research interests include distributed robotics, mobile computing and programmable matter.
 affiliations:
