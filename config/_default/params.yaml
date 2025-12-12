@@ -72,7 +72,7 @@ hugoblox:
     # Border radius: 'none', 'sm', 'md', 'lg', or 'full'
     radius: "md"
     # Spacing density: 'compact', 'comfortable', or 'spacious'
-    spacing: "comfortable"
+    spacing: "compact"
     # Avatar shape in author profiles
     avatar_shape: circle                # circle | square | rounded
 
@@ -202,7 +202,7 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   analytics:
     google:
-      measurement_id: ""                # Google Analytics 4: G-XXXXXXXXXX
+      measurement_id: "G-NCF6LWRES5"                # Google Analytics 4: G-XXXXXXXXXX
     google_tag_manager:
       container_id: ""                  # GTM-XXXXXXX
     plausible:
