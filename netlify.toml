@@ -1,6 +1,6 @@
 [build]
   command = """
-    pnpm install --verbose --no-frozen-lockfile
+    pnpm install --no-frozen-lockfile
     
     echo "=== Running Hugo build ==="
     hugo --gc --minify -b $URL --logLevel debug --printI18nWarnings --printPathWarnings
