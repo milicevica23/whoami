@@ -3,7 +3,7 @@ title: Uses
 date: 2025-12-13
 hide_date: false
 ---
-Here you can find a list of tools, frameworks and resources with reasoning for why I use them on a daily basis as a data engineer and for personal projects.
+Here you can find a list of tools, frameworks and resources with reasoning for why I like and use them as a profesional data engineer and for personal projects.
 
 ### Learning Resources
 - [CMU Database Group](https://www.youtube.com/@CMUDatabaseGroup) YouTube channel from Professor [Andy Pavlo](https://www.cs.cmu.edu/~apavlo/). This is the first course that actually helped me in my day-to-day job as a data engineer. I would recommend first watching Intro to Databases, then the Advanced Database course, and finally all the seminars and guest lectures for the latest information and system understanding. There is a lot of material—I've been following it since 2021. I recommend starting with the new semester and watching videos as they're released.
