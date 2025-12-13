@@ -7,24 +7,19 @@ name:
   family: Milicevic
 status:
   icon: 
-role: Professor of Artificial Intelligence
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+role: Data Platform Engineer @ Magenta Telekom
 affiliations:
-  - name: Stanford University
-    url: https://www.stanford.edu/
+  - name: Computer Science @ University of Vienna
+    url: https://www.univie.ac.at/en/
 links:
   - icon: at-symbol
-    url: mailto:your-email@example.com
-    label: E-mail Me
-  - icon: brands/x
-    url: https://x.com/BuildLore
-  - icon: brands/instagram
-    url: https://www.instagram.com/
+    url: mailto:milicevic.aleksandar@outlook.com
+  - icon: brands/github
+    url: https://github.com/milicevica23
   - icon: brands/linkedin
-    url: https://www.linkedin.com/
+    url: https://www.linkedin.com/in/milicevica23/
+  - icon: brands/x
+    url: https://x.com/milicevica23
   - icon: academicons/cv
-    url: uploads/resume.pdf
+    url: uploads/resume1.pdf
     label: Download my resume
-  - icon: rss
-    url: ./post/index.xml
-    label: Subscribe to my blog via RSS feed
