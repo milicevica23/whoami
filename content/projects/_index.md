@@ -1,14 +1,14 @@
 ---
-title: Events
+title: Projects 
 type: landing
 sections:
   - block: collection
-    id: papers
     content:
-      title: "Recent Events"
+      title: "Recent Projects"
       filters:
         folders:
           - events
+      count: 9
     design:
       view: article-grid
       columns: 3

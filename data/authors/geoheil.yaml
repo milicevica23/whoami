@@ -1,0 +1,195 @@
+schema: hugoblox/author/v1
+slug: geoheil
+is_owner: false
+name:
+  display: Georg Heiler
+  given: Georg Heiler 
+  family: Heiler
+status:
+  icon: 
+role: Senior Data Expert @ Magenta Telekom
+affiliations:
+  - name: Computer Science @ University of Vienna
+    url: https://www.univie.ac.at/en/
+links:
+  - icon: at-symbol
+    #url: 'mailto:private-website.shredding946@passmail.net'
+    url: 'mailto:heiler@csh.ac.at'
+    label: E-mail Me
+  #- icon: at-symbol
+  #  url: '#contact'  # For a direct email link, use "mailto:test@example.org".
+  - icon: brands/x
+    url: https://x.com/geoheil
+  - icon: academicons/google-scholar
+    url: https://scholar.google.co.uk/citations?view_op=list_works&hl=de&user=9QCyDvsAAAAJ
+  - icon: brands/github
+    url: https://github.com/geoheil
+  - icon: brands/linkedin
+    url: https://www.linkedin.com/in/georg-heiler-019b3767/
+# ---
+# # Display name
+# title: Georg Heiler
+# # name_pronunciation:
+# first_name: Georg
+# last_name: Heiler
+
+# status:
+#   icon: 🚀
+
+# # Is this the primary user of the site?
+# superuser: true
+# highlight_name: true
+
+# # Role/position/tagline
+# role: senior data expert
+
+# # Organizations/Affiliations
+# organizations:
+# - name: Magenta
+#   url: "https://magenta.at/"
+# - name: Austrian Supply Chain Intelligence Institute
+#   url: "https://ascii.ac.at/"
+# - name: Complexity Science Hub
+#   url: "https://www.csh.ac.at/"
+# #- name: TU Wien
+# #  url: "https://www.tuwien.ac.at/en/"
+# - name: Vienna Data Science Group
+#   url: "https://viennadatasciencegroup.at/"
+
+# # Short bio (displayed in user profile at end of posts)
+# bio: My research interests include large geo-spatial time and network data analytics.
+
+# interests:
+# - Geo-spatial analytics
+# - Time series
+# - Network analytics
+# - Large and fast data
+# - Responsible AI
+# - Knowledge graphs
+
+# education:
+#   - area: Dr. techn. Informatics
+#     institution: TU Wien
+#     year: 2023
+#   - area: MSc in Business Informatics
+#     institution: TU Wien
+#     year: 2018
+#   - area: BSc in Business Informatics
+#     institution: TU Wien
+#     year: 2015
+
+# # Social/Academic Networking
+# # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
+# #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
+# #   form "mailto:your-email@example.com" or "#contact" for contact widget.
+# profiles:
+# - icon: at-symbol
+#   #url: 'mailto:private-website.shredding946@passmail.net'
+#   url: 'mailto:heiler@csh.ac.at'
+#   label: E-mail Me
+# #- icon: at-symbol
+# #  url: '#contact'  # For a direct email link, use "mailto:test@example.org".
+# - icon: brands/x
+#   url: https://x.com/geoheil
+# - icon: academicons/google-scholar
+#   url: https://scholar.google.co.uk/citations?view_op=list_works&hl=de&user=9QCyDvsAAAAJ
+# - icon: brands/github
+#   url: https://github.com/geoheil
+# - icon: brands/linkedin
+#   url: https://www.linkedin.com/in/georg-heiler-019b3767/
+# # Link to a PDF of your resume/CV from the About widget.
+# # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.  
+
+# # Link to a PDF of your resume/CV.
+# # To use: copy your resume to `static/media/resume.pdf`, enable `ai` icons in `params.toml`, 
+# # and uncomment the lines below.
+# # - icon: cv
+# #   icon_pack: ai
+# #   link: media/resume.pdf
+
+# # Enter email to display Gravatar (if Gravatar enabled in Config)
+# email: ""
+
+# # Skills
+# # Add your own SVG icons to `assets/media/icons/`
+# # skills:
+# #   - name: Technical Skills
+# #     items:
+# #       - name: Python
+# #         description: ''
+# #         percent: 80
+# #         icon: code-bracket
+# #       - name: Data Science
+# #         description: ''
+# #         percent: 100
+# #         icon: chart-bar
+# #       - name: SQL
+# #         description: ''
+# #         percent: 40
+# #         icon: circle-stack
+# #   - name: Hobbies
+# #     color: '#eeac02'
+# #     color_border: '#f0bf23'
+# #     items:
+# #       - name: Hiking
+# #         description: ''
+# #         percent: 60
+# #         icon: person-simple-walk
+# #       - name: Cats
+# #         description: ''
+# #         percent: 100
+# #         icon: cat
+# #       - name: Photography
+# #         description: ''
+# #         percent: 80
+# #         icon: camera
+
+# # languages:
+# #   - name: English
+# #     percent: 100
+# #   - name: Chinese
+# #     percent: 75
+# #   - name: Portuguese
+# #     percent: 25
+
+# # # Awards.
+# # #   Add/remove as many awards below as you like.
+# # #   Only `title`, `awarder`, and `date` are required.
+# # #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
+# # awards:
+# #   - title: Neural Networks and Deep Learning
+# #     url: https://www.coursera.org/learn/neural-networks-deep-learning
+# #     date: '2023-11-25'
+# #     awarder: Coursera
+# #     icon: coursera
+# #     summary: |
+# #       I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
+# #   - title: Blockchain Fundamentals
+# #     url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
+# #     date: '2023-07-01'
+# #     awarder: edX
+# #     icon: edx
+# #     summary: |
+# #       Learned:
+# #       - Synthesize your own blockchain solutions
+# #       - Gain an in-depth understanding of the specific mechanics of Bitcoin
+# #       - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
+# #   - title: 'Object-Oriented Programming in R'
+# #     url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
+# #     certificate_url: https://www.datacamp.com
+# #     date: '2023-01-21'
+# #     awarder: datacamp
+# #     icon: datacamp
+# #     summary: |
+# #       Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
+# ---
+# ## About Me
+
+# Georg is a **Senior data expert** @Magenta and a ML-ops engineer @ASCII. He is **solving challenges with data**. His interests include geospatial graphs and time series. Georg transitions the data platform of Magenta to the cloud and is handling large scale multi-modal ML-ops challenges at ASCII.
+
+# <!-- 
+#         Georg specializes in working with large-scale spatio-temporal graph data, focusing on an end-to-end view of data pipelines and holistic data architecture. As an experienced engineer, he has delivered impactful solutions in fraud detection, mobility analytics, and predictive maintenance in cable networks. As an architect he is working on transitioning the data platform of Magenta to the cloud. 
+
+#         During his doctoral studies, Georg researched inferring supply networks and analyzed the societal impact of government interventions during the COVID-19 pandemic using mobility data. He shares his enthusiasm for data as a lecturer on data science and big data, inspiring up-and-coming data talents. Additionally, Georg is an active speaker and organizer at meetups, contributing to the growth of the data science community.
+
+#         Outside of his professional life, Georg enjoys rowing and hiking in the mountains, reflecting his love for nature and physical activity. He is also a passionate cook, always on the lookout for new recipes and culinary experiences.  Georg is always open to new collaborations and opportunities, so feel free to reach out to him. -->

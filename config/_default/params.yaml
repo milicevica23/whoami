@@ -21,7 +21,7 @@ hugoblox:
     # Short tagline displayed on your site
     tagline: ""
     # Site meta description for search engines and social sharing
-    description: ""
+    description: "This is a personal blog about data engineering, data architecture, and related topics."
     # Social accounts (used for meta tags like Twitter Cards)
     social:
       twitter: "BuildLore"              # Twitter/X handle for Twitter Cards (without @)
@@ -118,7 +118,7 @@ hugoblox:
     # Copyright notice - supports {year}, {name}, {license} placeholders
     notice: "© {year} {name}. This work is licensed under {license}"
     license:
-      type: cc                          # cc | all_rights | custom
+      enable: true                      # cc | all_rights | custom
       allow_derivatives: false
       share_alike: true
       allow_commercial: false

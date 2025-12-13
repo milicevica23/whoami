@@ -5,7 +5,7 @@ sections:
   - block: resume-biography
     content:
       # Author slug (data/authors/<slug>.yaml)
-      username: me
+      username: aleks
     design:
       spacing:
         padding: [0, 0, 0, 0]
@@ -18,10 +18,12 @@ sections:
   - block: collection
     id: papers
     content:
-      title: "Recent Posts"
+      title: "Recent Blogs, Events and Projects"
       filters:
         folders:
           - blog
+          - events
+          - projects
       count: 6
     design:
       view: article-grid

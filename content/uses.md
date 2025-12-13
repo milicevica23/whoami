@@ -3,6 +3,8 @@ title: Uses
 date: 2025-12-13
 hide_date: false
 ---
+I'm a professional data engineer living in Vienna, Austria, working for Magenta Telekom.
+
 Here you can find a list of tools, frameworks and resources with reasoning for why I like and use them as a profesional data engineer and for personal projects.
 
 ### Learning Resources
@@ -19,3 +21,7 @@ Here you can find a list of tools, frameworks and resources with reasoning for w
 - [DuckDB](https://duckdb.org/) - Embeddable analytical database
 - [DuckLake](https://ducklake.select/) - Open data lake and catalog format 
 - [Rust](https://www.rust-lang.org/) - Systems programming language
+
+
+## Atributions
+- The icon for this site was made by [Freepik](https://www.freepik.com) from [www.flaticon.com](https://www.flaticon.com/).
