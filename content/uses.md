@@ -1,26 +1,21 @@
 ---
 title: Uses
-date: 2023-10-24
-hide_date: true
-reading_time: false
+date: 2025-12-13
+hide_date: false
 ---
+Here you can find a list of tools, frameworks and resources with reasoning for why I use them on a daily basis as a data engineer and for personal projects.
 
-The idea of a Uses page is to tell you about the stuff I use.
+### Learning Resources
+- [CMU Database Group](https://www.youtube.com/@CMUDatabaseGroup) YouTube channel from Professor [Andy Pavlo](https://www.cs.cmu.edu/~apavlo/). This is the first course that actually helped me in my day-to-day job as a data engineer. I would recommend first watching Intro to Databases, then the Advanced Database course, and finally all the seminars and guest lectures for the latest information and system understanding. There is a lot of material—I've been following it since 2021. I recommend starting with the new semester and watching videos as they're released.
 
-Make sure to check out [uses.tech](https://uses.tech/) for a list of everyone's Uses pages!
+### Frameworks and Tools I Use Every Day
+- [Dagster](https://dagster.io/) - Data orchestration platform
+- [dbt](https://www.getdbt.com/) - Data transformation tool
+- [BigQuery](https://cloud.google.com/bigquery) - Google's data warehouse
+- [GitLab](https://about.gitlab.com/) - DevOps platform
+- [Claude](https://claude.ai/) - AI assistant by Anthropic
 
-I often get asked about what software or hardware I use, so this page will serve as a living document and a place to point curious readers to when I get asked.
-
-## Website
-
-- [Hugo Blox](https://hugoblox.com) (see the tutorial on [Getting Started](/blog/get-started/))
-
-## Editor + Terminal
-
-- [Visual Studio Code](https://code.visualstudio.com/) is my current editor
-- Chrome is my main browser
-- iTerm2 is my terminal
-
-## Desktop Apps
-
-- Better Touch Tool for window management and custom keyboard shortcuts
+### Things I'm Interested In But Not Using Day to Day Yet
+- [DuckDB](https://duckdb.org/) - Embeddable analytical database
+- [DuckLake](https://ducklake.select/) - Open data lake and catalog format 
+- [Rust](https://www.rust-lang.org/) - Systems programming language
