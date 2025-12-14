@@ -23,5 +23,5 @@ Here you can find a list of tools, frameworks and resources with reasoning for w
 - [Rust](https://www.rust-lang.org/) - Systems programming language
 
 
-## Atributions
+### Atributions
 - The icon for this site was made by [Freepik](https://www.freepik.com) from [www.flaticon.com](https://www.flaticon.com/).
