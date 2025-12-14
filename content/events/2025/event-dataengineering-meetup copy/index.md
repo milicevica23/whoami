@@ -18,7 +18,7 @@ links:
   - name: video
     url:  https://www.youtube.com/watch?v=GX508If6ol0
 ---
-In our T-centar we presented our arhitecture, decisions and learnings while creating Magenta Telekom data platform. Slides and more pictures from the event can be found on George Heiler [blog post](https://georgheiler.com/event/dataengineering-meetup-2025/).
+At our T-Center, we presented our architecture, decisions, and learnings while creating the Magenta Telekom data platform. Slides and more pictures from the event can be found on Georg Heiler's [blog post](https://georgheiler.com/event/dataengineering-meetup-2025/).
 
-We also have a prerecoded video of the presentation available on YouTube: [Scaling Data Pipelines @Magenta Telekom](https://www.youtube.com/watch?v=example).
+We also have a pre-recorded video of the presentation available on YouTube: [Scaling Data Pipelines @Magenta Telekom]( https://www.youtube.com/watch?v=GX508If6ol0 ).
 

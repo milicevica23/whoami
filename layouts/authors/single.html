@@ -1,0 +1,42 @@
+{{- $author_slug := .File.ContentBaseName -}}
+{{- $author_data := index site.Data.authors $author_slug -}}
+
+{{- if $author_data.website -}}
+<!DOCTYPE html>
+<html lang="{{ site.Language.Lang }}">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="refresh" content="0; url={{ $author_data.website }}">
+    <link rel="canonical" href="{{ $author_data.website }}">
+    <title>Redirecting to {{ $author_data.name.display | default $author_slug }}</title>
+    <script>
+        window.location.href = "{{ $author_data.website }}";
+    </script>
+</head>
+<body>
+    <p>Redirecting to <a href="{{ $author_data.website }}">{{ $author_data.name.display | default $author_slug }}'s website</a>...</p>
+</body>
+</html>
+{{- else -}}
+<!DOCTYPE html>
+<html lang="{{ site.Language.Lang }}">
+<head>
+    <meta charset="utf-8">
+    <title>{{ $author_data.name.display | default $author_slug }}</title>
+</head>
+<body>
+    <h1>{{ $author_data.name.display | default $author_slug }}</h1>
+    {{- if $author_data.role -}}
+    <p>{{ $author_data.role }}</p>
+    {{- end -}}
+    {{- if $author_data.links -}}
+    <h2>Links</h2>
+    <ul>
+        {{- range $author_data.links -}}
+        <li><a href="{{ .url }}">{{ .label | default .url }}</a></li>
+        {{- end -}}
+    </ul>
+    {{- end -}}
+</body>
+</html>
+{{- end -}}

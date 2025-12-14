@@ -4,7 +4,7 @@ type: landing
 sections:
   - block: collection
     content:
-      title: "Recent Posts"
+      title: "Recent Blog Posts"
       filters:
         folders:
           - blog

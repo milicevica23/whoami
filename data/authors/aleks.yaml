@@ -1,6 +1,7 @@
 schema: hugoblox/author/v1
-slug: aleks 
+slug: aleks
 is_owner: true
+website: https://milicevica.com
 name:
   display: Aleksandar Milicevic 
   given: Aleksandar Milicevic 

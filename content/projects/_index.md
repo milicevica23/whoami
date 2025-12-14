@@ -7,7 +7,7 @@ sections:
       title: "Recent Projects"
       filters:
         folders:
-          - events
+          - projects
       count: 9
     design:
       view: article-grid

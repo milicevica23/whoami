@@ -1,6 +1,7 @@
 schema: hugoblox/author/v1
 slug: geoheil
 is_owner: false
+website: https://georgheiler.com/
 name:
   display: Georg Heiler
   given: Georg Heiler 
@@ -8,9 +9,6 @@ name:
 status:
   icon: 
 role: Senior Data Expert @ Magenta Telekom
-affiliations:
-  - name: Computer Science @ University of Vienna
-    url: https://www.univie.ac.at/en/
 links:
   - icon: at-symbol
     #url: 'mailto:private-website.shredding946@passmail.net'
@@ -26,6 +24,8 @@ links:
     url: https://github.com/geoheil
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/georg-heiler-019b3767/
+
+
 # ---
 # # Display name
 # title: Georg Heiler
