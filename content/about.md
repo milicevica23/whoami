@@ -1,5 +1,5 @@
 ---
-title: Uses
+title: About Me
 date: 2025-12-13
 hide_date: false
 ---
