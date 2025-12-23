@@ -12,6 +12,12 @@ baseURL: 'https://milicevica.com' # Website URL
 ############################
 
 cascade:
+  # Tags taxonomy term pages - show 2 columns
+  - _target:
+      path: /tags/**
+      kind: term
+    view: article-grid
+    columns: 2
   # Blog post options
   - _target:
       path: /blog/**

@@ -7,7 +7,7 @@ authors:
   - geoheil
   - aleks
 tags:
-  - Online presentation
+  - Online Presentation
   - Pixi
   - Data Platform Stack
 
