@@ -1,0 +1,7 @@
+/* Make single grid items span full width */
+.grid > :only-child {
+  grid-column: 1 / -1 !important;
+  max-width: 36rem !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
