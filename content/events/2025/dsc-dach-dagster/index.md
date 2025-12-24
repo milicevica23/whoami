@@ -21,4 +21,4 @@ links:
   - name: repository
     url: "https://github.com/l-mds/dsc-dach-tutorial-dagster"
 ---
-In a online session at DSC DACH 2025, we present an introduction to why we use Dagster for data orchestration at Magenta Telekom and also do a getting started hands on tutorial. If you are new to Dagster or considering it for your data engineering workflows, this session is what I teach new team members at Magenta Telekom to get them up to speed.
+In an online session at DSC DACH 2025, we present an introduction to why we use Dagster for data orchestration at Magenta Telekom and provide a hands-on getting started tutorial. If you are new to Dagster or considering it for your data engineering workflows, this session covers what I teach new team members at Magenta Telekom to get them up to speed.

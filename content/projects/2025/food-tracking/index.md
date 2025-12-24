@@ -22,48 +22,59 @@ links:
 
 ---
 ## Overview
-Few years back I realized that after eating certain food sometimes I feel bad, have headaches or get very sleepy. After a discussion with a colleague he advised me to start to track my food intake and how I feel. For the first few weeks I was dooing it in an excel and then decided to use my knowledge and build something fun. This project servers to better understand food impact on my healt and also as a playground for new technologies, processes and architectures (e.g. I tried for the first time to code with AI assistance - Claude code)
+A few years ago, I realized that after eating certain foods, I sometimes feel bad, have headaches, or get very sleepy. After discussing this with a colleague, he advised me to start tracking my food intake and how I feel. For the first few weeks, I was doing it in Excel and then decided to use my knowledge and build something fun. This project serves to better understand the impact of food on my health and also as a playground for new technologies, processes, and architectures (e.g., I tried for the first time to code with AI assistance - Claude Code).
 
-**you can try it out if you want but be aware that data is publicly available and not properly secured or backed up**
+I hope this project can help you as it helped me. Happy to receive feedback and ideas.
+
+**You can try it out if you want, but be aware that data is publicly available and not properly secured or backed up.**
 
 ## Architecture
-Idea is very simple: collect data with a user interface, save data to a database, enrich data, visualize and extract insights.
+The idea is very simple: collect data with a user interface, save data to a database, enrich data, visualize, and extract insights.
 
 (Welcome to data engineering :)
 
 ## Components
 ### [Food collection survey](https://docs.google.com/forms/d/e/1FAIpQLSc0_qS9dJ4lBwpG3ThMBWqbUr8Fe__Wrn2b6xy4aDTdctWlBA/viewform)
+You can enter as many entries as you have meals per day. The only personal information required is an email, which you can fake if you want to stay anonymous.
+I normally submit a new entry with only the food name and picture, then after 1-2 hours I add a self-assessment of the health impact. You will receive a confirmation email after the first submission and can edit it later. 
 
-### [Visualisation dashboard](https://milicevica23.github.io/food-tracking-serving/)
+#### Rules I follow
+- Log all food consumed in one meal in a single row
+- Add self-assessment 1-2 hours after the meal
+- Avoid eating other food for at least 3-4 hours after the meal
 
-## Rules I am following
-- log all food consumed in one meal in a single row
-- add self-assessment 1-2 hours after the meal
-- avoid eating other food for at least 3-4 hours after the meal
+### [Visualization dashboard](https://milicevica23.github.io/food-tracking-serving/)
+Your email is hashed, and you can find your hash with the following statement
+```
+SELECT sha256('123@gmail.com') as user_hash_id;
+```
+You can then search for your user and click in the table to get to your personal dashboard.
 
-## Status:
-I will from time to time update status and direction of the project here.
+The dashboard needs a bit more love and will get it soon.
 
-### 2025-12-24 - init
+## Status
+I will update the status and direction of the project here from time to time.
+
+### 2025-12-24 - Init
 #### Overall
-The general idea was to setup initial ui for data collection, basic dagster,dbt and motherduck integration (I know about dagster and dbt from my work) and have a basic dashboard with few metrics and visualizations.
-I had few things in my mind what I want to learn with the first iteration:
-- how to use google forms as a data collection ui (I was suprised with out of box features like saving and editing entries in google sheets, sending email confirmations)
-- try to code with ai assistance (done) -> claude code blew my mind few times 
-- deploy dagster on self hosted kubernetes cluster with self hosted runner (done but it was harder then expected)
-- connect and explore motherduck as I wanted to get back to duckdb
-- learn a new visualization tools (I decided for evidence because it already had a dagster integration that I now think is not mature and needs a bit of improvement that I ll try to contribute)
+The general idea was to set up an initial UI for data collection, basic Dagster, dbt, and MotherDuck integration (I know about Dagster and dbt from my work), and have a basic dashboard with a few metrics and visualizations.
+I had a few things in mind that I wanted to learn with the first iteration:
+- How to use Google Forms as a data collection UI (I was surprised by the out-of-the-box features like saving and editing entries in Google Sheets, and sending email confirmations)
+- Try to code with AI assistance - Claude Code blew my mind a few times
+- Deploy Dagster on a self-hosted Kubernetes cluster with a self-hosted runner (it was harder than expected)
+- Connect and explore MotherDuck as I wanted to get back to DuckDB
+- Learn a new visualization tool (I decided on Evidence because it already had a Dagster integration, though I now think it's not mature and needs improvement that I'll try to contribute)
 
 #### Learnings
-- process around building docker images and deployment in self hosted runners on self hosted kubernetes cluster need a lot of 
-knowledge that we often think is granted as we have devops colleagues 
-- start simple with visible business value is more important then sophisticated tooling. For example I use now google forms to collect data instead of building custom UI in rust :D (I started and stopped at least 3 times)
-- having for the first time a working e2e solution was very motivating and helps extend and improve it further
-- it is hard to collect data and be precise. What is exactly in the meal? How do you really feel from 1 to 10? 
+- The process around building Docker images and deployment with self-hosted GitHub runners on a self-hosted Kubernetes cluster requires a lot of knowledge that we often take for granted when we have DevOps colleagues
+- Starting simple with visible business value is more important than sophisticated tooling. For example, I now use Google Forms to collect data instead of building a custom UI in Rust (I started and stopped at least 3 times)
+- Having a working end-to-end solution for the first time was very motivating and helps extend and improve it further
+- It is hard to collect data and be precise. What exactly is in the meal? How do you really feel on a scale from 1 to 10?
+
 #### Next Steps
-- create more dashboards and visualizations from the existing data
-- enrich collected data with AI generated ingredients from food name and picture
-- trying to find more friends who are willing to try this out
-- trying soap for secrets and fluxcd for kubernetesdeployment
-- trying to improve dagster-evidence component integration
-- making refreshes automatically running on schedule
+- Create more dashboards and visualizations from the existing data
+- Enrich collected data with AI-generated ingredients from food name and picture
+- Find more friends who are willing to try this out
+- Try SOPS for secrets and FluxCD for Kubernetes deployment
+- Try to improve the Dagster-Evidence component integration
+- Make refreshes run automatically on a schedule
