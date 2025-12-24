@@ -12,6 +12,6 @@ tags:
   - duckdb
   - Data Engineering
 ---
-Together with Georg we describe how to think about and build a modern local MDS using Dagster, dbt and duckdb. The full blog post can be found on Georg's [blog](https://georgheiler.com/post/dbt-duckdb-production/).
+Together with Georg, we describe how to think about and build a modern local MDS using Dagster, dbt, and DuckDB. The full blog post can be found on Georg's [blog](https://georgheiler.com/post/dbt-duckdb-production/).
 
-This was my first blog post and I really want to thank Georg for collaboration.
+This was my first blog post, and I really want to thank Georg for the collaboration.
