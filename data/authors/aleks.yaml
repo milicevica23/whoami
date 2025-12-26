@@ -9,8 +9,10 @@ name:
 status:
   icon: 
 role: Data Platform Engineer @ Magenta Telekom
+role_sr: Data Platform inženjer @ Magenta Telekom
 affiliations:
   - name: Computer Science @ University of Vienna
+    name_sr: Informatika @ Univerzitet u Beču
     url: https://www.univie.ac.at/en/
 links:
   - icon: at-symbol

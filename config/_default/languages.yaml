@@ -5,18 +5,47 @@
 # Default language
 en:
   languageCode: en-us
-  # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
-  #contentDir: content/en
+  languageName: English
+  contentDir: content/en
+  weight: 1
+  menu:
+    main:
+      - name: Home
+        url: /
+        weight: 10
+      - name: Blogs
+        url: blog/
+        weight: 20
+      - name: Events
+        url: events/
+        weight: 20
+      - name: Projects
+        url: projects/
+        weight: 30
+      - name: About Me
+        url: about/
+        weight: 40
 
-# Uncomment the lines below to configure your website in a second language.
-#zh:
-#  languageCode: zh-Hans
-#  contentDir: content/zh
-#  title: Chinese website title...
-#  params:
-#    description: Site description in Chinese...
-#  menu:
-#    main:
-#      - name: 传
-#        url: '#about'
-#        weight: 1
+# Serbian language
+sr:
+  languageCode: sr
+  languageName: Srpski
+  contentDir: content/sr
+  weight: 2
+  menu:
+    main:
+      - name: Početna
+        url: /
+        weight: 10
+      - name: Blog
+        url: blog/
+        weight: 20
+      - name: Događaji
+        url: events/
+        weight: 20
+      - name: Projekti
+        url: projects/
+        weight: 30
+      - name: O meni
+        url: about/
+        weight: 40
