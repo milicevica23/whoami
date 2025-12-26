@@ -49,3 +49,32 @@
   package = "netlify-plugin-hugo-cache-resources"
   [plugins.inputs]
     debug = true
+
+# Redirects for old URLs (before multilingual support)
+# Redirect root to English
+[[redirects]]
+  from = "/"
+  to = "/en/"
+  status = 301
+  force = false
+
+# Redirect all old content paths to English versions
+[[redirects]]
+  from = "/blog/*"
+  to = "/en/blog/:splat"
+  status = 301
+
+[[redirects]]
+  from = "/events/*"
+  to = "/en/events/:splat"
+  status = 301
+
+[[redirects]]
+  from = "/projects/*"
+  to = "/en/projects/:splat"
+  status = 301
+
+[[redirects]]
+  from = "/about/"
+  to = "/en/about/"
+  status = 301
