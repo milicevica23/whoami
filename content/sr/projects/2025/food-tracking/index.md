@@ -46,7 +46,7 @@ Obično šaljem novi unos samo sa imenom hrane i slikom, zatim nakon 1-2 sata do
 ### [Vizualizaciona kontrolna tabla](https://milicevica23.github.io/food-tracking-serving/)
 Vaš email je heširan i možete pronaći svoj heš sa sledećom naredbom
 ```
-SELECT sha256('123@gmail.com') as user_hash_id;
+SELECT left(hex(sha256('123@gmail.com')), 12) as user_hash_id;
 ```
 Zatim možete pretražiti svog korisnika i kliknuti u tabeli da dođete do svoje lične kontrolne table.
 

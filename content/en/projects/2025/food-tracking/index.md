@@ -46,7 +46,7 @@ I normally submit a new entry with only the food name and picture, then after 1-
 ### [Visualization dashboard](https://milicevica23.github.io/food-tracking-serving/)
 Your email is hashed, and you can find your hash with the following statement
 ```
-SELECT sha256('123@gmail.com') as user_hash_id;
+SELECT left(hex(sha256('123@gmail.com')), 12) as user_hash_id;
 ```
 You can then search for your user and click in the table to get to your personal dashboard.
 
