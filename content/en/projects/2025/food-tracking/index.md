@@ -55,6 +55,31 @@ The dashboard needs a bit more love and will get it soon.
 ## Status
 I will update the status and direction of the project here from time to time.
 
+### 2026-01-05 The application is working and giving value, but...
+
+#### Features
+- new collection method with Telegram chat/bot
+- multiple AI model integrations with the image in the prompt for better prediction results
+- refined visuals and also added prompt that can be copy-pasted into ChatGPT for some relation findings
+- everything is deployed on my small PC at home with self-hosted runners (let's see what will be with them)
+
+#### Learnings
+- The bottleneck in development is requirements and feedback collection. You have to find somebody who will use it and openly discuss feedback on your work. My GF started to use the application and immediately said Google Forms is not convenient for collecting entries (I implemented a Telegram chat method) or she also wanted to see proteins (I added proteins in the overview). It is very important to have somebody who will give you honest feedback.
+- Claude Code can do everything with web and code base searching as you would do but much more effectively. The first prompt with listing and pointing towards needed code changes and listing everything that has to happen is very important
+- A very fast development cycle and feature development created a lot of code that is not really well connected and abstracted. I started to think that we introduced abstractions and best code practices for us humans to lower cognitive load and enable easy extensions of the code. For AI assistant this doesn't matter it just crunches through.
+- I never remembered to commit and push single feature changes -> I know this will hurt me someday
+- Adding another data collection mechanism and new data like proteins in the meal made me realize that the data structures and modeling are missing for extendability. AI assistant is just adding a new column, a migration part in the init statement and it is done but it hurts stability.
+- Dagster components are very convenient to use and develop
+
+#### next steps
+- try to get a few people using the application and collect feedback
+- stabilization of the code
+  - introduce ty, refactor code in smaller modules
+  - introduce a base image for building images in CI/CD
+  - improve Dagster-Evidence integration and contribute to open source
+
+
+
 ### 2025-12-24 - Init
 #### Overall
 The general idea was to set up an initial UI for data collection, basic Dagster, dbt, and MotherDuck integration (I know about Dagster and dbt from my work), and have a basic dashboard with a few metrics and visualizations.

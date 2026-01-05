@@ -55,6 +55,31 @@ Kontrolna tabla treba malo više pažnje i uskoro će je dobiti.
 ## Status
 Ovde ću s vremena na vreme ažurirati status i pravac projekta.
 
+### 2026-01-05 Aplikacija radi i daje vrednost, ali...
+
+#### Funkcionalnosti
+- novi metod prikupljanja podataka putem Telegram četa/bota
+- višestruke integracije AI modela sa slikom u promptu za bolje rezultate predikcije
+- poboljšane vizualizacije i dodat prompt koji se može kopirati u ChatGPT za pronalaženje nekih veza
+- sve je deployovano na mom malom PC-ju kod kuće sa self-hosted runner-ima (videćemo šta će biti sa njima)
+
+#### Naučene lekcije
+- Usko grlo u razvoju je prikupljanje zahteva i povratnih informacija. Morate pronaći nekoga ko će koristiti aplikaciju i otvoreno diskutovati povratne informacije o vašem radu. Moja devojka je počela da koristi aplikaciju i odmah rekla da Google Forms nije zgodan za prikupljanje unosa (implementirao sam Telegram čet metod) ili je takođe želela da vidi proteine (dodao sam proteine u pregled). Veoma je važno imati nekoga ko će vam dati iskrene povratne informacije.
+- Claude Code može da uradi sve sa pretragom weba i kod baze kao što biste vi, ali mnogo efikasnije. Prvi prompt sa listanjem i ukazivanjem na potrebne izmene koda i listanjem svega što mora da se desi je veoma važan
+- Veoma brz ciklus razvoja i razvoj funkcionalnosti stvorili su dosta koda koji nije baš dobro povezan i apstrahovan. Počeo sam da mislim da smo uveli apstrakcije i najbolje prakse kodiranja za nas ljude da smanjimo kognitivno opterećenje i omogućimo lake ekstenzije koda. Za AI asistenta ovo nije bitno, on samo prolazi kroz sve.
+- Nikad se nisam setio da komitujem i pušujem pojedinačne izmene funkcionalnosti -> znam da će me ovo povrediti jednog dana
+- Dodavanje još jednog mehanizma za prikupljanje podataka i novih podataka poput proteina u obroku učinilo me je svesnim da nedostaju strukture podataka i modelovanje za proširivost. AI asistent samo dodaje novu kolonu, deo za migraciju u init izjavi i gotovo je, ali to šteti stabilnosti.
+- Dagster komponente su veoma zgodne za korišćenje i razvoj
+
+#### Sledeći koraci
+- pokušati da nekoliko ljudi koristi aplikaciju i prikupiti povratne informacije
+- stabilizacija koda
+  - uvesti ty, refaktorisati kod u manje module
+  - uvesti baznu sliku za izgradnju slika u CI/CD-u
+  - poboljšati Dagster-Evidence integraciju i doprineti open source-u
+
+
+
 ### 2025-12-24 - Init
 #### Generalno
 Opšta ideja je bila da se postavi početni UI za prikupljanje podataka, osnovna Dagster, dbt i MotherDuck integracija (poznajem Dagster i dbt sa posla), i da imam osnovnu kontrolnu tablu sa nekoliko metrika i vizualizacija.
